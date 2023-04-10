@@ -10,6 +10,6 @@ if (!current_time){ current_time = 0; }
  
 player.setCurrentTime(current_time);
 player.on('timeupdate', throttle(onTimeUpdate, 1000));
-unction onTimeUpdate(){
+function onTimeUpdate(){
     player.getCurrentTime().then(seconds => {localStorage.setItem(LOCALSTORAGE_KEY, seconds);});
 }
