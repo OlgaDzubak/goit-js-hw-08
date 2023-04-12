@@ -31,7 +31,7 @@ try {
         email.value = "";
         message.value = "";
         console.dir("event.turget = ",event.turget);
-        //console.dir(inputFormData);
+        //console.dir(inputFormData); 
     }
 
 } catch (error) {
