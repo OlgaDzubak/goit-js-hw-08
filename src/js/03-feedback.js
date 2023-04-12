@@ -30,7 +30,8 @@ try {
         localStorage.removeItem(LOCALSTORAGE_KEY);
         email.value = "";
         message.value = "";
-        console.dir(inputFormData);
+        console.dir("event.turget = ",event.turget);
+        //console.dir(inputFormData);
     }
 
 } catch (error) {
